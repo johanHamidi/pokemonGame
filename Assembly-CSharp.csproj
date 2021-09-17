@@ -36,15 +36,20 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Trainer_front.cs" />
-     <Compile Include="Assets\Scripts\CharacterMovements.cs" />
-     <Compile Include="Assets\compo.cs" />
-     <Compile Include="Assets\Scripts\Battle\HPBar.cs" />
+     <Compile Include="Assets\Scripts\Battle\Pokemon.cs" />
+     <Compile Include="Assets\Scripts\Niveau.cs" />
+     <Compile Include="Assets\Scripts\Battle\MoveBase.cs" />
      <Compile Include="Assets\Scripts\Battle\BattleHud.cs" />
      <Compile Include="Assets\Scripts\Battle\PokemonBase.cs" />
-     <Compile Include="Assets\Scripts\Battle\Pokemon.cs" />
-     <Compile Include="Assets\Scripts\Battle\MoveBase.cs" />
+     <Compile Include="Assets\Trainer_front.cs" />
+     <Compile Include="Assets\Scripts\Battle\BattleSystem.cs" />
+     <Compile Include="Assets\Scripts\Battle\BattleUnit.cs" />
+     <Compile Include="Assets\Scripts\ToggleCam.cs" />
+     <Compile Include="Assets\Scripts\CharacterMovements.cs" />
+     <Compile Include="Assets\compo.cs" />
      <Compile Include="Assets\Scripts\Battle\Move.cs" />
+     <Compile Include="Assets\Scripts\Battle\BattleDialogBox.cs" />
+     <Compile Include="Assets\Scripts\Battle\HPBar.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

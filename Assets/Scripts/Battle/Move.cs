@@ -8,6 +8,10 @@ public class Move
 
     public int PP{get; set;}
 
-    public Move
+    public Move(MoveBase pBase, int pp)
+    {
+        Base = pBase;
+        PP = pp;
+    }
     
 }
